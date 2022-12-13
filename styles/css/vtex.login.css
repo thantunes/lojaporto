@@ -1,0 +1,27 @@
+.label::before {
+    content: " ";
+    font-size: 14px;
+    color: black;
+    width: 24px;
+    height: 24px;
+    background-image: url(assets/header/Vector.svg);
+    background-size: cover;
+    display: block;
+}
+
+.label {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    text-transform: capitalize;
+    color: #000000;
+}
+
+.container :global(.vtex-button):hover{
+    background-color:transparent !important;
+}

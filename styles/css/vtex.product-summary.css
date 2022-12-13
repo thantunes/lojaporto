@@ -1,4 +1,5 @@
-.skuSelectorContainer--quickview .skuSelectorItemImage .frameAround, .skuSelectorContainer--quickview .skuSelectorItemImage .skuSelectorInternalBox {
+.skuSelectorContainer--quickview .skuSelectorItemImage .frameAround,
+.skuSelectorContainer--quickview .skuSelectorItemImage .skuSelectorInternalBox {
   border-radius: 50%;
 }
 
@@ -11,16 +12,42 @@
   opacity: 1;
 }
 
+.container {
+  width: 315px;
+  box-shadow: 0px 0px 20px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+  background-color: #fff;
+  padding: 0px 15px;
+  height: 530px;
+}
+
+.element :global(.vtex-button) {
+  background-color: transparent !important;
+  border: 1px solid #0046C0;
+}
+
+.element :global(.vtex-button__label) {
+  color: #0046C0;
+  text-transform: capitalize;
+}
+.nameContainer{
+  padding-bottom: 0px;
+}
+
+
 @media screen and (max-width: 40em) {
   .container :global(.vtex-modal-layout-0-x-triggerContainer) {
     display: none;
   }
 }
 
-.nameContainer {
-  justify-content: start;
-  padding-top: 1rem;
-  padding-bottom: 1rem;
+.productBrand {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 27px;
+  text-transform: capitalize;
+  color: #000000;
 }
 
 .brandName {

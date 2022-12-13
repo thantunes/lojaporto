@@ -4,21 +4,23 @@
       "list-context.image-list#demo",
       /* You can make references to blocks defined in other files.
        * For example, `flex-layout.row#deals` is defined in the `deals.json` file. */
-      "flex-layout.row#deals",
+      // "flex-layout.row#deals",
       "__fold__",
       "rich-text#shelf-title",
       "flex-layout.row#shelf",
-      "info-card#home",
-      "rich-text#question",
-      "rich-text#link",
-      "newsletter"
+      "flex-layout.row#MinibannersContainer",
+      "rich-text#shelf-title-2",
+      "flex-layout.row#shelf",
+      "rich-text#shelf-title-3",
+      "flex-layout.row#shelf"
+      // "info-card#home"
     ]
   },
 
   "list-context.image-list#demo": {
     "children": ["slider-layout#demo-images"],
     "props": {
-      "height": 570,
+
       "preload": true,
       "images": [
         {
@@ -47,8 +49,40 @@
 
   "rich-text#shelf-title": {
     "props": {
-      "text": "## Summer",
+      "text": "## Mais vendidos",
       "blockClass": "shelfTitle"
+    }
+  },
+  "rich-text#shelf-title-2": {
+    "props": {
+      "text": "## Lançamentos",
+      "blockClass": "shelfTitle"
+    }
+  },
+  "rich-text#shelf-title-3": {
+    "props": {
+      "text": "## Ofertas",
+      "blockClass": "shelfTitle"
+    }
+  },
+  "flex-layout.row#MinibannersContainer":{
+    "props":{
+      "title":"Minibanners",
+      "blockClass":"MinibannersContainer"
+    },
+    "children":[
+      "image#minibanner1",
+      "image#minibanner2"
+    ]
+  },
+  "image#minibanner1":{
+    "props":{
+      "src":"assets/miniBanner-01 1.png"
+    }
+  },
+  "image#minibanner2":{
+    "props":{
+      "src":"assets/miniBanner-02 2.png"
     }
   },
   "flex-layout.row#shelf": {

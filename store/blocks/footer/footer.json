@@ -5,18 +5,16 @@
   "footer-layout.desktop": {
     "children": [
       "flex-layout.row#footer-1-desktop",
-      "flex-layout.row#footer-2-desktop",
       "flex-layout.row#footer-3-desktop"
     ]
   },
   "flex-layout.row#footer-1-desktop": {
     "children": [
-      "vtex.menu@2.x:menu#Products",
-      "vtex.menu@2.x:menu#footer-clothing",
-      "vtex.menu@2.x:menu#footer-decoration",
-      "vtex.menu@2.x:menu#footer-bags",
-      "footer-spacer",
-      "social-networks"
+      "flex-layout.col#VejaTambem",
+      "flex-layout.col#Duvidas",
+      "flex-layout.col#Atendimento",
+      "flex-layout.col#Seg-Pag",
+      "flex-layout.col#Social-App"
     ],
     "props": {
       "blockClass": "menu-row",
@@ -24,7 +22,259 @@
       "paddingBottom": 3
     }
   },
+"flex-layout.col#VejaTambem":{
+  "props":{
+    "blockClass":"FooterCol",
+    "preventHorizontalStretch":true,
+    "preventVerticalStretch":true
+  },
+  "children":[
+    "rich-text#FooterTitle-1",
+    "rich-text#FooterText-1",
+    "rich-text#FooterText-2"
+  ]
+},
+"flex-layout.col#Duvidas":{
+  "props":{
+    "blockClass":"FooterCol",
+    "preventHorizontalStretch":true,
+    "preventVerticalStretch":true
+  },
+  "children":[
+    "rich-text#FooterTitle-2",
+    "rich-text#FooterText-3",
+    "rich-text#FooterText-4",
+    "rich-text#FooterText-5",
+    "rich-text#FooterText-6",
+    "rich-text#FooterText-7"
+  ]
+},
+"flex-layout.col#Atendimento":{
+  "props":{
+    "blockClass":"FooterCol",
+    "preventHorizontalStretch":true,
+    "preventVerticalStretch":true
+  },
+  "children":[
+    "rich-text#FooterTitle-3",
+    "rich-text#FooterText-8",
+    "rich-text#FooterText-9",
+    "rich-text#FooterText-10",
+    "rich-text#FooterText-11"
+  ]
+},
+"flex-layout.col#Seg-Pag":{
+  "props":{
+    "blockClass":"FooterCol",
+    "preventHorizontalStretch":true,
+    "preventVerticalStretch":true
+  },
+  "children":[
+    "flex-layout.col#Pag",
+    "flex-layout.col#Seg"
+  ]
+},
+"flex-layout.col#Social-App":{
+  "props":{
+    "blockClass":"FooterCol",
+    "preventHorizontalStretch":true,
+    "preventVerticalStretch":true
+  },
+  "children":[
+    "image#Logo-Footer",
+    "flex-layout.col#Social",
+    "flex-layout.col#App"
+  ]
+},
+"flex-layout.col#App":{
+  "props":{
+    "blockClass":"FooterCol",
+    "preventHorizontalStretch":true,
+    "preventVerticalStretch":true
+  },
+  "children":[
+    "rich-text#FooterTitle-7",
+    "flex-layout.row#Appimages"
+  ]
+},
+"flex-layout.row#Appimages":{
+  "children":[
+    "image#App-1",
+    "image#App-2"
+  ]
+},
+"image#App-1":{
+  "props":{
+    "src":"assets/Footer/appstore.png"
+  }
+},
+"image#App-2":{
+  "props":{
+    "src":"assets/Footer/googleplay.png"
+  }
+},
+"flex-layout.col#Social":{
+  "props":{
+    "blockClass":"FooterCol",
+    "preventHorizontalStretch":true,
+    "preventVerticalStretch":true
+  },
+  "children":[
+    "rich-text#FooterTitle-6",
+    "image#Social"
+  ]
+},
+"image#Social":{
+  "props":{
+    "src":"assets/Footer/icon_social 1.png"
+  }
+},
+"image#Logo-Footer":{
+  "props":{
+    "src":"assets/Footer/PortoLogoFooter.png"
+  }
+},
 
+"flex-layout.col#Seg":{
+  "props":{
+    "blockClass":"FooterCol",
+    "preventHorizontalStretch":true,
+    "preventVerticalStretch":true
+  },
+  "children":[
+    "rich-text#FooterTitle-5",
+    "image#Seg"
+  ]
+},
+"rich-text#FooterTitle-7":{
+  "props":{
+    "text":"[Baixe o app da Porto](/)",
+    "blockClass":"FooterTitle"
+  }
+},
+"rich-text#FooterTitle-6":{
+  "props":{
+    "text":"[Acompanhe a Porto nas Redes Sociais](/)",
+    "blockClass":"FooterTitle"
+  }
+},
+"rich-text#FooterTitle-5":{
+  "props":{
+    "text":"[Compra Segura](/)",
+    "blockClass":"FooterTitle"
+  }
+},
+"image#Seg":{
+  "props":{
+    "src":"assets/Footer/site-blindado 1.png"
+  }
+},
+"flex-layout.col#Pag":{
+  "props":{
+    "blockClass":"FooterCol",
+    "preventHorizontalStretch":true,
+    "preventVerticalStretch":true
+  },
+  "children":[
+    "rich-text#FooterTitle-4",
+    "image#Pagamentos"
+  ]
+},
+"rich-text#FooterTitle-4":{
+  "props":{
+    "text":"[Formas de Pagamentos](/)",
+    "blockClass":"FooterTitle"
+  }
+},
+"image#Pagamentos":{
+  "props":{
+    "src":"assets/Footer/cartoes-de-credito 1.png"
+  }
+},
+"rich-text#FooterTitle-2":{
+  "props":{
+    "text":"[Dúvidas](/)",
+    "blockClass":"FooterTitle"
+  }
+},
+"rich-text#FooterTitle-1":{
+  "props":{
+    "text":"[Veja Também](/)",
+    "blockClass":"FooterTitle"
+  }
+},
+"rich-text#FooterTitle-3":{
+  "props":{
+    "text":"[Atendimento](/)",
+    "blockClass":"FooterTitle"
+  }
+},
+"rich-text#FooterText-1":{
+  "props":{
+    "text":"[Minha Conta](/)",
+    "blockClass":"FooterText"
+  }
+},
+"rich-text#FooterText-2":{
+  "props":{
+    "text":"[Meus Pedidos](/)",
+    "blockClass":"FooterText"
+  }
+},
+"rich-text#FooterText-3":{
+  "props":{
+    "text":"[Política de Pagamento](/)",
+    "blockClass":"FooterText"
+  }
+},
+"rich-text#FooterText-4":{
+  "props":{
+    "text":"[Política de Frete](/)",
+    "blockClass":"FooterText"
+  }
+},
+"rich-text#FooterText-5":{
+  "props":{
+    "text":"[Envio ou Retirada](/)",
+    "blockClass":"FooterText"
+  }
+},
+"rich-text#FooterText-6":{
+  "props":{
+    "text":"[Trocas ou Devoluções](/)",
+    "blockClass":"FooterText"
+  }
+},
+"rich-text#FooterText-7":{
+  "props":{
+    "text":"[Dúvidas Frequentes](/)",
+    "blockClass":"FooterText"
+  }
+},
+"rich-text#FooterText-8":{
+  "props":{
+    "text":"[09:00h ás 18:00h](/)",
+    "blockClass":"FooterText"
+  }
+},
+"rich-text#FooterText-9":{
+  "props":{
+    "text":"[(11)2393-5140](/)",
+    "blockClass":"FooterText"
+  }
+},
+"rich-text#FooterText-10":{
+  "props":{
+    "text":"[atendimento.lojavirtual@portoseguro.com.br](/)",
+    "blockClass":"FooterText"
+  }
+},
+"rich-text#FooterText-11":{
+  "props":{
+    "text":"[Politica de Privacidade](/)",
+    "blockClass":"FooterText"
+  }
+},
   "social-networks": {
     "props": {
       "socialNetworks": [
@@ -61,18 +311,65 @@
   },
 
   "flex-layout.row#footer-3-desktop": {
-    "children": ["rich-text#footer"],
+    "children": [
+      "flex-layout.row#footer-3-content-desktop",
+      "rich-text#footer-5",
+      "image#Footer-6"
+    ],
     "props": {
-      "blockClass": "credits"
+      "blockClass": "credits",
+      "preventHorizontalStretch":true,
+    "preventVerticalStretch":true
     }
   },
-  "rich-text#footer": {
+  "flex-layout.row#footer-3-content-desktop": {
+    "children": [
+      "rich-text#footer-1",
+      "rich-text#footer-2",
+      "rich-text#footer-3",
+      "rich-text#footer-4"
+    ],
     "props": {
-      "text": "All stock and product photos are from photos.icons8.com",
+      "blockClass": "credits-container"
+    }
+  },
+  "rich-text#footer-1": {
+    "props": {
+      "text": "Privacidade",
       "blockClass": "footer"
     }
   },
-
+  "rich-text#footer-2": {
+    "props": {
+      "text": "Configurações de Cookies",
+      "blockClass": "footer"
+    }
+  },
+  "rich-text#footer-3": {
+    "props": {
+      "text": "Porto Em Um Clique",
+      "blockClass": "footer"
+    }
+  },
+  "rich-text#footer-4": {
+    "props": {
+      "text": "Procon",
+      "blockClass": "footer"
+    }
+  },
+  "rich-text#footer-5": {
+    "props": {
+      "text": "PORTO SEGURO ® 2022 Todos os direitos reservados \n Porto Seguro Serviços e Comércio S.A. - CNPJ: 09.436.686/0001-32",
+      "blockClass": "footer"
+    }
+  },
+  "image#Footer-6":{
+    "props":{
+      "src":"assets/Footer/VTEX_white.png",
+      "width":72,
+      "height":34
+    }
+  },
   "footer-layout.mobile": {
     "children": [
       "flex-layout.row#1-footer-mobile",

@@ -3,7 +3,17 @@
   padding: 0 0.5rem;
 }
 
+.flexCol--productRating {
+  margin-bottom: 0px !important;
+  display: none;
+}
+
+.flexRow--main-header {
+  background-color: #fff;
+}
+
 @media screen and (min-width: 40em) {
+
   .flexRowContent--menu-link,
   .flexRowContent--main-header {
     padding: 0 1rem;
@@ -11,6 +21,7 @@
 }
 
 @media screen and (min-width: 80rem) {
+
   .flexRowContent--menu-link,
   .flexRowContent--main-header {
     padding: 0 0.25rem;
@@ -95,4 +106,35 @@
 
 .flexRow--addToCartRow {
   padding-bottom: 1rem;
+}
+
+.flexRowContent--main-header {
+  background-color: #fff !important;
+}
+.flexRowContent--credits{
+  border-top: 1px solid white;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 15px;
+  padding-top: 10px;
+}
+.flexRowContent--credits-container {
+  gap: 30px;
+}
+.flexRowContent--credits .stretchChildrenWidth{
+  width: 100% !important;
+}
+.flexRowContent--menu-row .stretchChildrenWidth {
+  justify-content: start;
+  width: fit-content !important;
+  margin-right: 30px;
+}
+
+.flexRowContent--menu-row {
+  width: fit-content !important;
+  margin: 0 auto;
+}
+
+.flexRowContent--menu-row .stretchChildrenWidth:last-child .flexCol--FooterCol :global(.vtex-rich-text-0-x-paragraph--FooterTitle) {
+  margin-top: 20px;
 }

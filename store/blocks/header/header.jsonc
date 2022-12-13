@@ -8,7 +8,7 @@
   "header-layout.desktop": {
     "children": [
       "flex-layout.row#1-desktop",
-      "flex-layout.row#3-desktop",
+      // "flex-layout.row#3-desktop",
       "sticky-layout#4-desktop"
     ]
   },
@@ -19,7 +19,7 @@
       "fullWidth": true
     }
   },
-  
+
   "flex-layout.row#3-desktop": {
     "props": {
       "blockClass": "menu-link",
@@ -39,6 +39,15 @@
       "width": "grow"
     }
   },
+  "category-menu": {
+    "props": {
+      "showAllDepartments": true,
+      "showSubcategories": true,
+      "menuDisposition": "center",
+      "departments": [],
+      "sortSubcategories": "name"
+    }
+  },
   "sticky-layout#4-desktop": {
     "props": {
       "blockClass": "sticky-header"
@@ -56,10 +65,8 @@
     },
     "children": [
       "flex-layout.col#logo-desktop",
-      "flex-layout.col#category-menu",
+      "category-menu",
       "flex-layout.col#spacer",
-      "search-bar",
-      "locale-switcher",
       "login",
       "minicart.v2"
     ]
@@ -80,9 +87,7 @@
     "props": {
       "title": "Logo",
       "href": "/",
-      "url": "https://storecomponents.vteximg.com.br/arquivos/store-theme-logo.png",
-      "width": "180",
-      "height": "12"
+      "url": "assets/header/LogoPortoAzul.svg"
     }
   },
   "header-layout.mobile": {

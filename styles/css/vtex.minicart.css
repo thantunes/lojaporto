@@ -1,0 +1,14 @@
+.minicartIconContainer .cartIcon{
+    display: none;
+}
+.minicartIconContainer::after{
+    content: " ";
+    width: 33px;
+    height: 26px;
+    background-image: url(assets/header/carrinho.svg);
+    background-size: cover;
+    display: block;
+}
+.openIconContainer :hover{
+    background-color:transparent;
+}

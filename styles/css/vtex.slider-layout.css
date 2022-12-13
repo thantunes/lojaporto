@@ -29,3 +29,13 @@
   padding-right: .5rem;
   min-height: 550px;
 }
+.paginationDotsContainer--shelf{
+  margin-bottom: 1.5rem;
+}
+.sliderTrackContainer--shelf{
+  margin-bottom: 30px;
+  padding-top: 7px;
+}
+.paginationDot--isActive{
+  background-color: #0046C0;
+}

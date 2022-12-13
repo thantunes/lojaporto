@@ -111,3 +111,7 @@
 .image {
   image-rendering: -webkit-optimize-contrast;
 }
+
+.imageElement--carousel{
+  max-height: unset !important;
+}
