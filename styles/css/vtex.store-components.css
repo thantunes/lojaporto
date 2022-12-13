@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+
 .notificationBarContainer {
   background-color: #e6f1e6;
   color: #03034e;
@@ -103,9 +105,11 @@
 }
 
 .productNameContainer {
-  color: #3f3f40;
+  color: #000;
   font-weight: bold;
   font-size: 30px;
+  text-transform: capitalize;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .image {
@@ -114,4 +118,9 @@
 
 .imageElement--carousel{
   max-height: unset !important;
+}
+
+.imageElement--minibannerhome {
+  max-width: 630px;
+  width: 100%;
 }

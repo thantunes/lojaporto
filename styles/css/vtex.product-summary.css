@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+
 .skuSelectorContainer--quickview .skuSelectorItemImage .frameAround,
 .skuSelectorContainer--quickview .skuSelectorItemImage .skuSelectorInternalBox {
   border-radius: 50%;
@@ -14,11 +16,15 @@
 
 .container {
   width: 315px;
-  box-shadow: 0px 0px 20px 1px rgba(0, 0, 0, 0.2);
   border-radius: 8px;
   background-color: #fff;
   padding: 0px 15px;
   height: 530px;
+  border: 1px solid rgb(224, 224, 224);
+}
+
+.container:hover {
+  border: 1px solid rgb(0, 70, 192);
 }
 
 .element :global(.vtex-button) {
@@ -29,6 +35,8 @@
 .element :global(.vtex-button__label) {
   color: #0046C0;
   text-transform: capitalize;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600
 }
 .nameContainer{
   padding-bottom: 0px;
@@ -48,12 +56,15 @@
   line-height: 27px;
   text-transform: capitalize;
   color: #000000;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .brandName {
-  font-weight: 600;
-  font-size: 18px;
-  color: #2E2E2E;
+  font-weight: 700;
+  font-size: 20px;
+  color: #000;
+  font-family: 'Open Sans', sans-serif;
+  text-transform: capitalize;
 }
 
 .container {
@@ -67,3 +78,4 @@
 .image {
   border-radius: 0.25rem;
 }
+

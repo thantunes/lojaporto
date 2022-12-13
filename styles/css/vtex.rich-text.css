@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+
+
 .container--deals {
   color: #ffffff;
   text-align: center;
@@ -11,6 +15,7 @@
   line-height: 32px;
   color: #FFFFFF;
   text-decoration: none;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .link--FooterText {
@@ -20,6 +25,7 @@
   line-height: 32px;
   color: #a7a7a7;
   text-decoration: none;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .paragraph--FooterText {
@@ -42,7 +48,10 @@
   margin-bottom: 0px;
 }
 .headingLevel2--shelfTitle {
-  font-weight: 200;
+  font-weight: 500;
+  font-family: 'Inter', sans-serif;
+  padding: 0px 50px;
+  margin-top: 40px;
 }
 
 .container--deals .paragraph {
@@ -83,6 +92,7 @@
   font-size: 16px;
   font-weight: 700;
   text-transform: uppercase;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .container--link .link {
@@ -90,12 +100,14 @@
   font-size: 36px;
   font-weight: 300;
   color: #03034E;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .container--title {
   color: #03034E;
   font-size: 28px;
   font-weight: 700;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .container--footer {
@@ -109,7 +121,7 @@
   font-size: 16px;
   line-height: 22px;
   text-align: right;
-
+  font-family: 'Open Sans', sans-serif;
   color: #FFFFFF;
 }
 

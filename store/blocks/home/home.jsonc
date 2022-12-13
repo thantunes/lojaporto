@@ -77,12 +77,14 @@
   },
   "image#minibanner1":{
     "props":{
-      "src":"assets/miniBanner-01 1.png"
+      "src":"assets/miniBanner-01 1.png",
+      "blockClass": "minibannerhome"
     }
   },
   "image#minibanner2":{
     "props":{
-      "src":"assets/miniBanner-02 2.png"
+      "src":"assets/miniBanner-02 2.png",
+      "blockClass": "minibannerhome"
     }
   },
   "flex-layout.row#shelf": {

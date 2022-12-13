@@ -38,4 +38,9 @@
 }
 .paginationDot--isActive{
   background-color: #0046C0;
+  opacity: 100% !important;
+}
+.paginationDot {
+  background-color: #0046C0;
+  opacity: 50%;
 }

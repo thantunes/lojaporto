@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+
 .listPrice {
   color: #727273;
   margin-bottom: .25rem;
@@ -25,9 +27,10 @@
 }
 
 .sellingPriceValue--summary {
-  font-size: 1.25rem;
-  font-weight: 600;
-  color: #2E2E2E;
+  font-size: 16px;
+  font-weight: 700;
+  font-family: 'Open Sans', sans-serif;
+  color: #000;
 }
 
 .savings--summary {
@@ -56,11 +59,14 @@
 .listPrice--summary {
   margin-bottom: 0.25rem;
   font-size: .875rem;
+  display: none;
 }
 
 .installments--summary {
-  margin-bottom: 2rem;
-  font-size: 0.875rem;
+  font-size: 12px;
+  font-weight: 400;
+  font-family: 'Open Sans', sans-serif;
+  color: #000;
 }
 
 .savings--summaryPercentage {

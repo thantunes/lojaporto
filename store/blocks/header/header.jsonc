@@ -67,8 +67,8 @@
       "flex-layout.col#logo-desktop",
       "category-menu",
       "flex-layout.col#spacer",
-      "login",
-      "minicart.v2"
+      "minicart.v2",
+      "login"
     ]
   },
   "flex-layout.col#logo-desktop": {

@@ -138,3 +138,8 @@
 .flexRowContent--menu-row .stretchChildrenWidth:last-child .flexCol--FooterCol :global(.vtex-rich-text-0-x-paragraph--FooterTitle) {
   margin-top: 20px;
 }
+
+.flexRowContent--MinibannersContainer {
+  padding: 0px 50px;
+  margin-top: 40px;
+}
