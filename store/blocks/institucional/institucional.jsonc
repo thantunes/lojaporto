@@ -1,0 +1,84 @@
+{
+  "store.custom#institucional":{
+    "blocks":[
+      "flex-layout.row#InstitucionalContent"
+    ]
+  },
+  "flex-layout.row#InstitucionalContent":{
+    "props":{
+      "blockClass":"InstitucionalContent",
+      "preventHorizontalStretch":true
+    },
+    "children":[
+      "flex-layout.col#InstitucionalLinks-container",
+      "rich-text#InstitucionalContent"
+    ]
+  },
+  "flex-layout.col#InstitucionalLinks-container":{
+    "props":{
+      "blockClass":"InstitucionalLinks-container",
+      "preventHorizontalStretch":true,
+      "preventVerticalStretch":true
+    },
+    "children":[
+      "rich-text#Links-Title-institucional",
+      "flex-layout.col#InstitucionalLinks"
+    ]
+  },
+  "flex-layout.col#InstitucionalLinks":{
+    "props":{
+      "blockClass":"InstitucionalLinks",
+      "preventHorizontalStretch":true
+    },
+    "children":[
+      "rich-text#PoliticaDePagamento",
+      "rich-text#PoliticaDeFrete",
+      "rich-text#EnvioouRetirada",
+      "rich-text#TrocasouDevolucoes",
+      "rich-text#DuvidasFrequentes"
+    ]
+  },
+  "rich-text#Links-Title-institucional":{
+    "props":{
+      "text":"### Dúvidas",
+      "blockClass":"Links-Title-institucional"
+    }
+  },
+  "rich-text#PoliticaDePagamento":{
+    "props":{
+      "text":"[Política de Pagamento](/institucional/politica-de-pagamento)",
+      "blockClass":"InstitucionalLink"
+    }
+  },
+  "rich-text#PoliticaDeFrete":{
+    "props":{
+      "text":"[Política de Frete](/institucional/politica-de-frete)",
+      "blockClass":"InstitucionalLink"
+    }
+  },
+  "rich-text#EnvioouRetirada":{
+    "props":{
+      "text":"[Envio ou Retirada](/institucional/envio-ou-retirada)",
+      "blockClass":"InstitucionalLink"
+    }
+  },
+  "rich-text#TrocasouDevolucoes":{
+    "props":{
+      "text":"[Trocas ou Devoluções](/institucional/trocas-ou-devolucoes)",
+      "blockClass":"InstitucionalLink"
+    }
+  },
+  "rich-text#DuvidasFrequentes":{
+    "props":{
+      "text":"[Dúvidas Frequentes](/institucional/duvidas-frequentes)",
+      "blockClass":"InstitucionalLink"
+    }
+  },
+  "rich-text#InstitucionalContent":{
+    "props":{
+      "text":"## Conteudo",
+      "blockClass":"InstitucionalContent",
+      "title":"Conteudo da Pagina"
+    }
+  }
+}

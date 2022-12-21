@@ -71,15 +71,19 @@
   .newsletter .container {
     padding: 140px;
   }
+
   .label {
-     font-size: 40px;
+    font-size: 40px;
   }
+
   .infoCardContainer--info-card-home .infoCardTextContainer {
     width: 30%;
   }
+
   .infoCardContainer--info-card-home .infoCardImageContainer {
     width: 70%;
   }
+
   .imageElement--storePrint {
     margin-bottom: 0px;
     max-height: 600px;
@@ -116,11 +120,25 @@
   image-rendering: -webkit-optimize-contrast;
 }
 
-.imageElement--carousel{
+.imageElement--carousel {
   max-height: unset !important;
+  max-width: 1440px;
 }
 
 .imageElement--minibannerhome {
   max-width: 630px;
   width: 100%;
+}
+
+.shippingContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 20px;
+  width: 340px;
+}
+
+.shippingContainer :global(.vtex-button) {
+  margin-top: 24px;
+  width: 250px;
 }

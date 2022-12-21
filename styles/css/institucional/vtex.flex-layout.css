@@ -1,0 +1,21 @@
+.flexCol--InstitucionalLinks-container {
+  margin-right: 45px;
+}
+
+.flexRow--InstitucionalContent {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+@media (max-width:768px) {
+  .flexCol--InstitucionalLinks {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+  }
+  .flexCol--InstitucionalLinks-container{
+    margin-right: 0px !important;
+  }
+}

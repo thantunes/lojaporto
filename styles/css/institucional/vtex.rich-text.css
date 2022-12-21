@@ -1,0 +1,14 @@
+.container--InstitucionalLink{
+  width: fit-content !important;
+  margin: 0px;
+  font-size: 16px;
+  border: 1px solid #5a5a5a86;
+  width: 160px !important;
+  justify-content: center;
+  margin-bottom: 7px;
+}
+.link--InstitucionalLink{
+  font-size: 12px;
+  text-decoration: none;
+  color: #5a5a5a;
+}

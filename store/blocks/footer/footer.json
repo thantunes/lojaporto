@@ -223,31 +223,31 @@
 },
 "rich-text#FooterText-3":{
   "props":{
-    "text":"[Política de Pagamento](/)",
+    "text":"[Política de Pagamento](/institucional/politica-de-pagamento)",
     "blockClass":"FooterText"
   }
 },
 "rich-text#FooterText-4":{
   "props":{
-    "text":"[Política de Frete](/)",
+    "text":"[Política de Frete](/institucional/politica-de-frete)",
     "blockClass":"FooterText"
   }
 },
 "rich-text#FooterText-5":{
   "props":{
-    "text":"[Envio ou Retirada](/)",
+    "text":"[Envio ou Retirada](/institucional/envio-ou-retirada)",
     "blockClass":"FooterText"
   }
 },
 "rich-text#FooterText-6":{
   "props":{
-    "text":"[Trocas ou Devoluções](/)",
+    "text":"[Trocas ou Devoluções](/institucional/trocas-ou-devolucoes)",
     "blockClass":"FooterText"
   }
 },
 "rich-text#FooterText-7":{
   "props":{
-    "text":"[Dúvidas Frequentes](/)",
+    "text":"[Dúvidas Frequentes](/institucional/duvidas-frequentes)",
     "blockClass":"FooterText"
   }
 },
@@ -387,8 +387,7 @@
   "flex-layout.col#footer-1-mobile": {
     "children": [
       "accepted-payment-methods",
-      "social-networks",
-      "rich-text#footer-mobile"
+      "social-networks"
     ],
     "props": {
       "blockClass": "payment-methods",

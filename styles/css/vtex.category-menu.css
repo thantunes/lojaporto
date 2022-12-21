@@ -23,3 +23,22 @@
 .section--category{
     margin-left: 7%;
 }
+.departmentLink::after{
+    width: 11px;
+    content: " ";
+    height: 7px;
+    display: block;
+    background-image: url(assets/header/seta.svg);
+    background-size: cover;
+}
+.departmentLink{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.departmentLink{
+  border-bottom: none;
+}

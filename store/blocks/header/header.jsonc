@@ -117,22 +117,52 @@
 
   "menu#drawer": {
     "children": [
-      "menu-item#category-apparel",
-      "menu-item#category-home",
-      "menu-item#more"
+      "rich-text#Departamentos-Tittle",
+      "rich-text#Institucionais",
+      "rich-text#InstitutoPortoSeguro",
+      "rich-text#PortoCollection",
+      "rich-text#Sustentabilidade"
     ],
     "props": {
       "orientation": "vertical"
     }
   },
-
+  "rich-text#Departamentos-Tittle": {
+    "props":{
+      "text":"### Departamentos",
+      "blockClass":"Menu-Mobile-tittle"
+    }
+  },
+  "rich-text#Institucionais": {
+    "props":{
+      "text":"[Institucionais](/institucionais)",
+      "blockClass":"Menu-Mobile"
+    }
+  },
+  "rich-text#InstitutoPortoSeguro": {
+    "props":{
+      "text":"[Instituto Porto Seguro](/instituto-porto-seguro)",
+      "blockClass":"Menu-Mobile"
+    }
+  },
+  "rich-text#PortoCollection": {
+    "props":{
+      "text":"[Porto Collection](/porto-collection)",
+      "blockClass":"Menu-Mobile"
+    }
+  },
+  "rich-text#Sustentabilidade": {
+    "props":{
+      "text":"[Sustentabilidade](/sustentabilidade)",
+      "blockClass":"Menu-Mobile"
+    }
+  },
   "logo#mobile": {
     "props": {
       "title": "Logo",
       "href": "/",
-      "url": "https://storecomponents.vteximg.com.br/arquivos/store-theme-logo-mobile.png",
-      "width": "77.5",
-      "height": "27.5"
+      "url": "assets/header/LogoPortoAzul.svg",
+      "width": "77.5"
     }
   }
 }

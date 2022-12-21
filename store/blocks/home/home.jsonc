@@ -71,13 +71,44 @@
       "blockClass":"MinibannersContainer"
     },
     "children":[
-      "image#minibanner1",
-      "image#minibanner2"
+      "list-context.image-list#MiniBanner1",
+      "list-context.image-list#MiniBanner2"
     ]
+  },
+  "slider-layout#MiniBanner": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": true
+    }
+  },
+  "list-context.image-list#MiniBanner1": {
+    "children":["slider-layout#MiniBanner"],
+    "props": {
+      "images": [
+        {
+          "image": "assets/miniBanner-01 1.png",
+          "description": "something something"
+        }
+      ]
+    }
+  },
+  "list-context.image-list#MiniBanner2": {
+    "children":["slider-layout#MiniBanner"],
+    "props": {
+      "images": [
+        {
+          "image": "assets/miniBanner-02 2.png",
+          "description": "something something"
+        }
+      ]
+    }
   },
   "image#minibanner1":{
     "props":{
-      "src":"assets/miniBanner-01 1.png",
       "blockClass": "minibannerhome"
     }
   },
