@@ -17,7 +17,7 @@
 }
 .itemContainer:first-child .submenuList{
     align-items: flex-start;
-    flex-direction: row;
+    flex-direction:column;
     justify-content: start;
 }
 .section--category{
@@ -41,4 +41,20 @@
 
 .departmentLink{
   border-bottom: none;
+}
+.departmentLink:focus{
+    text-decoration:none !important;
+    outline: none !important;
+}
+.secondLevelLink:hover,.secondLevelLink:focus, .firstLevelLink:hover, .firstLevelLink:focus {
+  text-decoration:none !important;
+  outline: none !important;
+  font-weight: bold;
+}
+
+.secondLevelLink{
+  display: none;
+}
+.itemContainer--category {
+  display: none !important;
 }

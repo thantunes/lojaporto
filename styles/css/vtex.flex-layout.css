@@ -146,4 +146,5 @@
 .flexRowContent--MinibannersContainer {
   padding: 0px 50px;
   margin-top: 40px;
+  gap: 15px;
 }

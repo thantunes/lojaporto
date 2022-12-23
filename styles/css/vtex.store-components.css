@@ -142,3 +142,7 @@
   margin-top: 24px;
   width: 250px;
 }
+
+.logoContainer{
+  padding-left: 0px !important;
+}
