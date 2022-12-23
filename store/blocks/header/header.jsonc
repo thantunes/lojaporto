@@ -67,9 +67,13 @@
       "flex-layout.col#logo-desktop",
       "category-menu",
       "flex-layout.col#spacer",
+      "searchButtonComp",
       "minicart.v2",
       "login"
     ]
+  },
+  "searchButtonComp":{
+    "children":["search-bar"]
   },
   "flex-layout.col#logo-desktop": {
     "props": {
@@ -102,6 +106,7 @@
       "logo#mobile",
       "flex-layout.col#spacer",
       "login",
+      "searchButtonComp",
       "minicart.v2"
     ],
     "props": {

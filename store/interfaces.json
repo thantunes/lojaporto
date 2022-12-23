@@ -1,0 +1,6 @@
+{
+  "searchButtonComp": {
+    "component": "searchButton",
+    "composition":"children"
+  }
+}
