@@ -10,9 +10,9 @@
       "flex-layout.row#shelf",
       "flex-layout.row#MinibannersContainer",
       "rich-text#shelf-title-2",
-      "flex-layout.row#shelf",
+      "flex-layout.row#shelf2",
       "rich-text#shelf-title-3",
-      "flex-layout.row#shelf"
+      "flex-layout.row#shelf3"
       // "info-card#home"
     ]
   },
@@ -49,13 +49,13 @@
 
   "rich-text#shelf-title": {
     "props": {
-      "text": "## Mais vendidos",
+      "text": "## Porto Collection",
       "blockClass": "shelfTitle"
     }
   },
   "rich-text#shelf-title-2": {
     "props": {
-      "text": "## Lançamentos",
+      "text": "## Institucionais",
       "blockClass": "shelfTitle"
     }
   },
@@ -119,6 +119,12 @@
     }
   },
   "flex-layout.row#shelf": {
+    "children": ["list-context.product-list#demo1"]
+  },
+  "flex-layout.row#shelf2": {
+    "children": ["list-context.product-list#demo1"]
+  },
+  "flex-layout.row#shelf3": {
     "children": ["list-context.product-list#demo1"]
   },
   "list-context.product-list#demo1": {
