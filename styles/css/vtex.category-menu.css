@@ -58,3 +58,6 @@
 .itemContainer--category {
   display: none !important;
 }
+.itemContainer--department:first-child{
+  display:none;
+}
