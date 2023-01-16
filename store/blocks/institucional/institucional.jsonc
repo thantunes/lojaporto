@@ -31,6 +31,7 @@
       "preventHorizontalStretch":true
     },
     "children":[
+      "rich-text#PoliticaDePrivacidade",
       "rich-text#PoliticaDePagamento",
       "rich-text#PoliticaDeFrete",
       "rich-text#EnvioouRetirada",
@@ -42,6 +43,13 @@
     "props":{
       "text":"### Dúvidas",
       "blockClass":"Links-Title-institucional"
+    }
+  },
+    
+    "rich-text#PoliticaDePrivacidade":{
+    "props":{
+      "text":"[Política de Privacidade](/institucional/politica-de-privacidade)",
+      "blockClass":"InstitucionalLink"
     }
   },
   "rich-text#PoliticaDePagamento":{
