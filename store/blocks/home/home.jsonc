@@ -8,6 +8,7 @@
       "__fold__",
       "rich-text#shelf-title",
       "flex-layout.row#shelf",
+      "rich-text#shelf-title-1",
       "flex-layout.row#MinibannersContainer",
       "rich-text#shelf-title-2",
       "flex-layout.row#shelf2",
@@ -50,6 +51,12 @@
   "rich-text#shelf-title": {
     "props": {
       "text": "## Porto Collection",
+      "blockClass": "shelfTitle"
+    }
+  },
+   "rich-text#shelf-title-1": {
+    "props": {
+      "text": "## Categorias",
       "blockClass": "shelfTitle"
     }
   },
