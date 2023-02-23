@@ -121,14 +121,66 @@
   },
   "children":[
     "rich-text#FooterTitle-6",
-    "image#Social"
+   "flex-layout.row#Social"
   ]
 },
-"image#Social":{
+
+"flex-layout.row#Social":{
   "props":{
-    "src":"assets/Footer/icon_social 1.png"
+    "blockClass":"FooterColsocial"
+  },
+  "children":[
+    "image#face",
+    "image#insta",
+    "image#linkedin",
+    "image#youtube",
+    "image#twitter",
+    "image#tiktok"
+  ]
+
+},
+"image#face":{
+  "props":{
+    "src":"/arquivos/facebook.png",
+    "blockClass":"FooterColsocialImg"
   }
 },
+"image#insta":{
+  "props":{
+    "src":"/arquivos/instagram.png",
+    "blockClass":"FooterColsocialImg"
+  }
+},
+
+"image#linkedin":{
+  "props":{
+    "src":"/arquivos/linkedin.png",
+    "blockClass":"FooterColsocialImg"
+  }
+},
+
+"image#youtube":{
+  "props":{
+    "src":"/arquivos/youtube.png",
+    "blockClass":"FooterColsocialImg"
+  }
+},
+
+"image#twitter":{
+  "props":{
+    "src":"/arquivos/twitter.png",
+    "blockClass":"FooterColsocialImg"
+  }
+},
+
+"image#tiktok":{
+  "props":{
+    "src":"/arquivos/tiktok.png",
+    "blockClass":"FooterColsocialImg"
+  }
+},
+
+
 "image#Logo-Footer":{
   "props":{
     "src":"assets/Footer/PortoLogoFooter.png"
@@ -324,15 +376,73 @@
   },
   "flex-layout.row#footer-3-content-desktop": {
     "children": [
-      "rich-text#footer-1",
-      "rich-text#footer-2",
-      "rich-text#footer-3",
-      "rich-text#footer-4"
+      "link#privacidade",
+      "link#cookies",
+      "link#portoemumclique",
+      "link#procon",
+      "link#segurancainformacao"
     ],
     "props": {
       "blockClass": "credits-container"
     }
   },
+
+
+  "link#privacidade": {
+    "props": {
+      "href": "https://www.portoseguro.com.br/privacidade",
+      "label": "Privacidade",
+      "target":"_blank",
+      "blockClass": "footer"
+    }
+  },
+
+
+  "link#cookies": {
+    "props": {
+      "href": "/",
+      "label": "Configurações de Cookies",
+      "target":"_blank",
+      "blockClass": "footer"
+    }
+  },
+
+
+  "link#portoemumclique": {
+    "props": {
+      "href": "https://www.portoseguro.com.br/porto-em-um-clique",
+      "label": "Porto em Um Clique",
+      "target":"_blank",
+      "blockClass": "footer"
+    }
+  },
+
+
+
+  "link#procon": {
+    "props": {
+      "href": "https://www.consumidor.gov.br/pages/principal/?1657894699051",
+      "label": "Procon",
+      "target":"_blank",
+      "blockClass": "footer"
+    }
+  },
+
+
+  
+  "link#segurancainformacao": {
+    "props": {
+      "href": "https://www.portoseguro.com.br/institucional/politica-de-seguranca-da-informacao",
+      "label": "Segurança da informação",
+      "target":"_blank",
+      "blockClass": "footer"
+    }
+  },
+
+
+
+
+
   "rich-text#footer-1": {
     "props": {
       "text": "Privacidade",
@@ -386,8 +496,9 @@
   },
   "flex-layout.col#footer-1-mobile": {
     "children": [
-      "accepted-payment-methods",
+     "accepted-payment-methods",
       "social-networks"
+   
     ],
     "props": {
       "blockClass": "payment-methods",
