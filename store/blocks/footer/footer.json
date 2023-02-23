@@ -200,19 +200,19 @@
 },
 "rich-text#FooterTitle-7":{
   "props":{
-    "text":"[Baixe o app da Porto](/)",
+    "text":"Baixe o app da Porto",
     "blockClass":"FooterTitle"
   }
 },
 "rich-text#FooterTitle-6":{
   "props":{
-    "text":"[Acompanhe a Porto nas Redes Sociais](/)",
+    "text":"Acompanhe a Porto nas Redes Sociais",
     "blockClass":"FooterTitle"
   }
 },
 "rich-text#FooterTitle-5":{
   "props":{
-    "text":"[Compra Segura](/)",
+    "text":"Compra Segura",
     "blockClass":"FooterTitle"
   }
 },
@@ -234,7 +234,7 @@
 },
 "rich-text#FooterTitle-4":{
   "props":{
-    "text":"[Formas de Pagamentos](/)",
+    "text":"Formas de Pagamentos",
     "blockClass":"FooterTitle"
   }
 },
@@ -245,19 +245,19 @@
 },
 "rich-text#FooterTitle-2":{
   "props":{
-    "text":"[Dúvidas](/)",
+    "text":"Dúvidas",
     "blockClass":"FooterTitle"
   }
 },
 "rich-text#FooterTitle-1":{
   "props":{
-    "text":"[Veja Também](/)",
+    "text":"Veja Também",
     "blockClass":"FooterTitle"
   }
 },
 "rich-text#FooterTitle-3":{
   "props":{
-    "text":"[Atendimento](/)",
+    "text":"Atendimento",
     "blockClass":"FooterTitle"
   }
 },
@@ -305,19 +305,19 @@
 },
 "rich-text#FooterText-8":{
   "props":{
-    "text":"[09:00h ás 18:00h](/)",
+    "text":"09:00h ás 18:00h",
     "blockClass":"FooterText"
   }
 },
 "rich-text#FooterText-9":{
   "props":{
-    "text":"[(11)2393-5140](/)",
+    "text":"(11)2393-5140",
     "blockClass":"FooterText"
   }
 },
 "rich-text#FooterText-10":{
   "props":{
-    "text":"[atendimento.lojavirtual@portoseguro.com.br](/)",
+    "text":"[atendimento.lojavirtual@portoseguro.com.br](mailto:atendimento.lojavirtual@portoseguro.com.br)",
     "blockClass":"FooterText"
   }
 },
