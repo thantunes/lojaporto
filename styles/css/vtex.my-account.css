@@ -1,16 +1,20 @@
-
 :global(.vtex-stack-layout-0-x-stackItem--product) {min-height: auto!important;}
+
 @media (min-width: 1200px)
 {
- :global(.vtex-category-menu-2-x-section--category){ max-width: 1200px;margin: auto;margin-top: 0px;}
- :global(.vtex-category-menu-2-x-itemContainer--category){min-height: 250px!important;}
+ :global(.vtex-category-menu-2-x-section--category){ max-width: 1188px;margin: auto;margin-top: 0px;}
+ :global(.vtex-category-menu-2-x-itemContainer--category){min-height: 270px!important;}
+
+ :global(.vtex-category-menu-2-x-departmentList)
+ :global(.vtex-category-menu-2-x-itemContainer):nth-child(3)
+ :global(.vtex-category-menu-2-x-section--category){max-width: 870px;}
 
  :global(.vtex-category-menu-2-x-departmentList)
  :global(.vtex-category-menu-2-x-itemContainer):nth-child(4)
- :global(.vtex-category-menu-2-x-section--category){max-width: 500px;}
+ :global(.vtex-category-menu-2-x-section--category){max-width: 504px;}
 
  :global(.vtex-category-menu-2-x-departmentList)
  :global(.vtex-category-menu-2-x-itemContainer):nth-child(5)
- :global(.vtex-category-menu-2-x-section--category){max-width: 590px;padding-left: 222px;}
+ :global(.vtex-category-menu-2-x-section--category){max-width: 658px;padding-left: 260px;}
 
 }
