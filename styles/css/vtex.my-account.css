@@ -1,8 +1,22 @@
-
 :global(.vtex-stack-layout-0-x-stackItem--product) {min-height: auto!important;}
 :global(.vtex-store-link-0-x-label--footer){white-space: nowrap!important;width: fit-content!important;font-style: normal;font-weight: 500;font-size: 16px; line-height: 22px;text-align: right;font-family: Open Sans,sans-serif;color: #fff;}
 :global(.vtex-store-link-0-x-link--footer){    text-decoration: none;}
 :global(.vtex-store-components-3-x-imageElement--FooterColsocialImg){height:25px;}
+
+:global(.vtex-store-footer-2-x-footerLayout)
+:global(.vtex-menu-2-x-menuItemInnerDiv)
+:global(.vtex-menu-2-x-styledLinkContainer){    margin: 0px 10px;}
+
+:global(.vtex-store-footer-2-x-footerLayout)
+:global(.vtex-menu-2-x-menuItemInnerDiv)
+:global(.vtex-menu-2-x-styledLinkContainer)
+:global(.vtex-menu-2-x-styledLinkContent){color: #fff;font-weight: bold;}
+
+:global(.vtex-store-footer-2-x-footerLayout)
+:global(.vtex-menu-2-x-accordionIcon){color:#fff;}
+
+:global(.vtex-rich-text-0-x-paragraph--FooterTitle){color: #fff;font-weight: bold;}
+:global(.vtex-rich-text-0-x-paragraph--FooterText){color: #a7a7a7;    line-height: 32px;}
 
 @media (min-width: 1200px)
 {
